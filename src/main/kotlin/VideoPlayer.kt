@@ -16,8 +16,8 @@ val VideoPlayer = FC<VideoPlayerProps> { props ->
     div {
         css {
             position = Position.absolute
-            top = 10.px
-            right = 10.px
+            top = 15.px
+            right = 30.px
         }
         h3 {
             +"${props.video.speaker}: ${props.video.title}"
@@ -40,8 +40,8 @@ val VideoPlayer = FC<VideoPlayerProps> { props ->
         div {
             css {
                 position = Position.absolute
-                top = 10.px
-                right = 10.px
+                top = 15.px
+                right = 20.px
             }
             EmailShareButton {
                 url = props.video.videoUrl
